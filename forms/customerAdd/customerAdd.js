@@ -1,3 +1,4 @@
+/* set global variables */
 var query = ""
 var req = ""
 var results = ""
