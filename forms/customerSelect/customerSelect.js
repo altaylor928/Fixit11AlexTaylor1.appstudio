@@ -1,3 +1,4 @@
+/* set global variables */
 var query = ""
 var req = ""
 var results = ""
@@ -11,7 +12,7 @@ customerSelect.onshow=function(){
 
     if (req.status == 200) { //transit worked
         results = JSON.parse(req.responseText)
-    
+        
     if (results.length == 0)
         NSB.MsgBox("There are no customers.")
     else {        
